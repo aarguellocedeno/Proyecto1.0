@@ -1,0 +1,3 @@
+C:/Users/mfarg/OneDrive/Documentos/Ana/POO/proyecto/cmake-build-debug/CMakeFiles/proyecto.dir
+C:/Users/mfarg/OneDrive/Documentos/Ana/POO/proyecto/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/mfarg/OneDrive/Documentos/Ana/POO/proyecto/cmake-build-debug/CMakeFiles/rebuild_cache.dir
