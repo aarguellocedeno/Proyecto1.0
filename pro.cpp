@@ -5,10 +5,15 @@
 #include <deque>
 #include <stdexcept>
 #include <cstdio>
+#include "vuelo.h"
 #include <limits>
 using namespace std;
-#include "vuelo.h"
 
+/*
+ * PROYECTO 1
+ * ANA GABRIELA ARGÜELLO
+ * LAURA ISABEL OLIVERO
+ * */
 void eleccionUno(int& consulta);
 void eleccionDos(int& consulta);
 void eleccionTres(int& consulta);
@@ -288,6 +293,4 @@ int main() {
     return 0;
 
 }
-
-
 
