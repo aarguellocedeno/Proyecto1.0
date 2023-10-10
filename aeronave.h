@@ -14,10 +14,11 @@ using namespace std;
 class Aeronave{
         public:
         Aeronave();
-        int velocidad,cantPas,autonomia,yearFab,estado;
+        int velocidad,cantPas,autonomia,yearFab,estado,ubi;
         string marca,modelo;
         virtual void info() { };
         virtual ~Aeronave();
+        int reportarUbi();
   //      virtual void generarNave(Vuelo& vu) =0;
 
 };
