@@ -15,8 +15,12 @@ Aeronave::Aeronave(){
     estado=0;
     marca="";
     modelo="";
+    ubi= rand() % 5;
 }
-
+int Aeronave::reportarUbi(){
+    int ans = ubi;
+    return ans;
+}
 Avion::Avion() {}
 
 Avion::Avion(int num,string uno){
@@ -31,9 +35,9 @@ void Avion::verCat() {
 }
 
 Helicoptero::Helicoptero(){
-    //rotores=0;
-    //capEle=0;
-    //uso="";
+    this->rotores=0;
+    this->capEle=0;
+    this->uso="";
 }
 
 Jet::Jet(){
